@@ -32,7 +32,7 @@
     </tbody>
  </table>
  
-<a style="margin-top:25px"" class="waves-effect waves-light btn" href="clients?action=create">Ajouter un client</a>
+<a style="margin-top:25px" class="waves-effect waves-light btn" href="clients?action=create">Ajouter un client</a>
 </div>
 </body>
 </html>

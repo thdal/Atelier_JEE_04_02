@@ -35,7 +35,7 @@
     </tbody>
  </table>
  
-<a style="margin-top:25px"" class="waves-effect waves-light btn" href="articles?action=create">Ajouter un article</a>
+<a style="margin-top:25px" class="waves-effect waves-light btn" href="articles?action=create">Ajouter un article</a>
 </div>
 </body>
 </html>

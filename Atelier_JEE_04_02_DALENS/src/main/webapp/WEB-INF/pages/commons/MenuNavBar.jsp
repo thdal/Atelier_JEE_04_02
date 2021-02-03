@@ -9,8 +9,7 @@
       <ul id="nav-mobile" class="right hide-on-med-and-down">
         <li><a href="articles?action=list">Liste des articles</a></li>
         <li><a href="clients?action=list">Liste des clients</a></li>
-        <li><a href="#">Liste des factures</a></li>
-        
+        <li><a href="factures">Liste des factures</a></li>        
       </ul>
     </div>
   </nav>

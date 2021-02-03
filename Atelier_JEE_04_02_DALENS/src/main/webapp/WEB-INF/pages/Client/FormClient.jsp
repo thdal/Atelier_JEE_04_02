@@ -13,10 +13,8 @@
 <hr>
 <form action="clients?action=create" method="post">
    <label for="nomClient">Nom du client :</label> <input type="text"  name="nomClient">
-   <label for="adresseClient">Adresse du client :</label>  <input type="text"  name="adresseClient">   
-   <a  class="waves-effect waves-light btn">   
-   	<input style="color:white;cursor:pointer" type="submit" value="Valider" />
-   </a>   
+   <label for="adresseClient">Adresse du client :</label>  <input type="text"  name="adresseClient"> 
+   	<input style="cursor:pointer" type="submit" value="Valider" />
  </form>
  </div>
 </body>

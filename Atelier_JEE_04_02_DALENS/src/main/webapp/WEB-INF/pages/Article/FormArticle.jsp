@@ -14,10 +14,8 @@
 <form action="articles?action=create" method="post">
    <label for="nomArticle">Nom de l'article :</label> <input type="text"  name="nomArticle">
    <label for="cbArticle">Code barre de l'article :</label>  <input type="text"  name="cbArticle">
-   <label for="prixArticle">Prix de l'article :</label>  <input type="text"  name="prixArticle">
-   <a  class="waves-effect waves-light btn">   
-   <input style="color:white;cursor:pointer" type="submit" value="Valider" />
-   </a>
+   <label for="prixArticle">Prix de l'article :</label>  <input type="number" max="2147483647"  name="prixArticle"> 
+   <input style="cursor:pointer" type="submit" value="Valider" />
  </form>
  </div>
 </body>

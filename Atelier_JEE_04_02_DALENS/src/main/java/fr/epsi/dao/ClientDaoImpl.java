@@ -57,12 +57,7 @@ public class ClientDaoImpl implements ClientDao{
 	
 	public List<Client> getClientsList(){
 	    
-	    	List<Client> clients = em.createQuery("select c from Client c order by c.nom asc", Client.class).getResultList();
-		    System.out.println("ProduitDAOImpl");		
-		    for(Client client : clients){ 
-			    System.out.println(client.getNom());
-			    System.out.println(client.getAdresse());	    	
-		    }	   
+	    	List<Client> clients = em.createQuery("select c from Client c order by c.nom asc", Client.class).getResultList();	   
 		    return clients;
 	}
 
