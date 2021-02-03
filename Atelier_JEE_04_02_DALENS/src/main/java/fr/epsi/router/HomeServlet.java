@@ -1,4 +1,4 @@
-package fr.epsi.controller;
+package fr.epsi.router;
 
 import java.io.IOException;
 
